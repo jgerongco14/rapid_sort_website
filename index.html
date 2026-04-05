@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.A.N.T. Rapid Sort - Fast-Paced Word Sorting Puzzle Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-950 text-white overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-slate-950/95 backdrop-blur-md z-50 border-b border-purple-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold font-mono">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">RAPID SORT</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="hover:text-cyan-400 transition">Features</a>
+                <a href="#modes" class="hover:text-cyan-400 transition">Game Modes</a>
+                <a href="#download" class="hover:text-cyan-400 transition">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500/20 blur-3xl floating rounded-full"></div>
+        <div class="absolute bottom-10 right-10 w-72 h-72 bg-blue-500/20 blur-3xl floating rounded-full" style="animation-delay: 2s;"></div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <!-- Game Title with Glow -->
+                <h1 class="text-5xl sm:text-6xl md:text-7xl font-black mb-4 neon-glow" style="color: #06b6d4;">
+                    P.A.N.T.
+                </h1>
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 text-transparent bg-clip-text">
+                    RAPID SORT
+                </h2>
+                
+                <!-- Tagline -->
+                <p class="text-xl sm:text-2xl text-cyan-300 font-semibold mb-8 neon-glow">
+                    Think Fast, Sort Faster!
+                </p>
+                
+                <!-- Description -->
+                <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-6 leading-relaxed">
+                    The ultimate word-sorting arcade game where speed meets strategy. Sort falling words into Place, Animal, Name, and Thing before time runs out. Master multiple modes, collect sticker books, and dominate the global leaderboard!
+                </p>
+                <p class="text-sm sm:text-base text-purple-300 max-w-2xl mx-auto mb-12">
+                    A fast-paced brain-training puzzle combining arcade energy with vocabulary challenges
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <div class="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-purple-800 px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-2 opacity-75 cursor-not-allowed border border-purple-400">
+                        <span>📱 Google Play - Coming Soon</span>
+                    </div>
+                    <div class="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-2 opacity-75 cursor-not-allowed border border-blue-400">
+                        <span>🍎 App Store - Coming Soon</span>
+                    </div>
+                </div>
+                <p class="text-sm text-cyan-300 mt-4 font-semibold">🚀 Stay tuned for launch announcements!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features Section -->
+    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50 backdrop-blur">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text">Why Players Love Rapid Sort</span>
+                </h2>
+                <p class="text-slate-400 text-lg">Packed with features to keep you engaged</p>
+            </div>
+            
+            <!-- Feature Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="card-gradient p-8 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition backdrop-blur-sm group">
+                    <div class="text-5xl mb-4 group-hover:scale-110 transition">⚡</div>
+                    <h3 class="text-xl font-bold mb-3 text-cyan-300">Lightning Speed</h3>
+                    <p class="text-slate-300">Race against the clock in short, intense rounds that are easy to start and impossible to stop playing.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-gradient p-8 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition backdrop-blur-sm group">
+                    <div class="text-5xl mb-4 group-hover:scale-110 transition">🎯</div>
+                    <h3 class="text-xl font-bold mb-3 text-pink-300">5 Game Modes</h3>
+                    <p class="text-slate-300">Classic, Zen, Blitz, Chaos, and themed Sort Mode offer something for everyone, from casual players to hardcore speedsters.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-gradient p-8 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition backdrop-blur-sm group">
+                    <div class="text-5xl mb-4 group-hover:scale-110 transition">📚</div>
+                    <h3 class="text-xl font-bold mb-3 text-blue-300">Sticker Books</h3>
+                    <p class="text-slate-300">Collect rare words and build themed collections. Complete books to earn exclusive rewards and unlock achievements.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-gradient p-8 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition backdrop-blur-sm group">
+                    <div class="text-5xl mb-4 group-hover:scale-110 transition">🏆</div>
+                    <h3 class="text-xl font-bold mb-3 text-yellow-300">Progressive Rewards</h3>
+                    <p class="text-slate-300">Earn XP, coins, and unlock power-ups. Level up to access new challenges, themes, and exclusive content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Modes Showcase -->
+    <section id="modes" class="py-20 px-4 sm:px-6 lg:px-8 relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-purple-500/10 to-blue-500/10 blur-3xl"></div>
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">Game Modes & Themes</span>
+                </h2>
+                <p class="text-slate-400">Multiple ways to play, unlimited ways to win</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <!-- P.A.N.T. Mode -->
+                <div class="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 p-8 rounded-xl border border-purple-500/30 hover:border-purple-400/60 transition group">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-3xl font-bold text-cyan-300">P.A.N.T. Mode</h3>
+                        <span class="text-3xl">🎮</span>
+                    </div>
+                    <p class="text-slate-300 mb-6">The core experience: Sort words into Places, Animals, Names, and Things at four different speeds.</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <span class="text-cyan-400">●</span>
+                            <span><strong>Classic:</strong> Balanced difficulty - Perfect for learning</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <span class="text-green-400">●</span>
+                            <span><strong>Zen:</strong> No pressure - Relax and enjoy</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <span class="text-orange-400">●</span>
+                            <span><strong>Blitz:</strong> 60-second sprint - High-score challenge</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-300">
+                            <span class="text-red-400">●</span>
+                            <span><strong>Chaos:</strong> Pure mayhem - Category zones shuffle!</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trivia Topics -->
+                <div class="bg-gradient-to-br from-blue-900/50 to-indigo-900/50 p-8 rounded-xl border border-blue-500/30 hover:border-blue-400/60 transition group">
+                    <div class="flex items-start justify-between mb-4">
+                        <h3 class="text-3xl font-bold text-pink-300">Trivia Topics</h3>
+                        <span class="text-3xl">🔬</span>
+                    </div>
+                    <p class="text-slate-300 mb-6">Specialized challenges with themed word categories and knowledge-based sorting.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="bg-slate-800/50 p-4 rounded-lg border border-blue-500/20">
+                            <div class="text-2xl mb-2">🧬</div>
+                            <p class="text-sm font-semibold text-blue-300">Biology</p>
+                            <p class="text-xs text-slate-400">Scientific terms</p>
+                        </div>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border border-blue-500/20">
+                            <div class="text-2xl mb-2">⛩️</div>
+                            <p class="text-sm font-semibold text-blue-300">Mythology</p>
+                            <p class="text-xs text-slate-400">Ancient legends</p>
+                        </div>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border border-blue-500/20">
+                            <div class="text-2xl mb-2">🍕</div>
+                            <p class="text-sm font-semibold text-blue-300">Food</p>
+                            <p class="text-xs text-slate-400">Culinary delights</p>
+                        </div>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border border-blue-500/20">
+                            <div class="text-2xl mb-2">🗺️</div>
+                            <p class="text-sm font-semibold text-blue-300">Geography</p>
+                            <p class="text-xs text-slate-400">World exploration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progression System -->
+            <div class="bg-gradient-to-r from-green-900/30 to-emerald-900/30 border border-green-500/30 rounded-xl p-8">
+                <h3 class="text-2xl font-bold text-green-300 mb-4">Progression & Unlocks</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-slate-300">
+                    <div class="flex gap-4">
+                        <span class="text-3xl">⭐</span>
+                        <div>
+                            <p class="font-bold text-white">Level Up</p>
+                            <p class="text-sm">Earn XP and climb through ranks. Unlock new modes and exclusive content at each milestone.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="text-3xl">💰</span>
+                        <div>
+                            <p class="font-bold text-white">Earn Coins</p>
+                            <p class="text-sm">Score points and collect coins from gameplay to purchase power-ups and cosmetics.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="text-3xl">🎁</span>
+                        <div>
+                            <p class="font-bold text-white">Daily Rewards</p>
+                            <p class="text-sm">Open daily chests and claim login bonuses. Never miss a day without getting rewarded!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboards & Social -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="gap-12 lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <!-- Left Content -->
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                        <span class="bg-gradient-to-r from-cyan-400 to-blue-400 text-transparent bg-clip-text">Compete Globally</span>
+                    </h2>
+                    <p class="text-slate-300 text-lg mb-6 leading-relaxed">
+                        Climb the global leaderboard and compete against players from around the world. See how you rank, improve your scores, and claim your spot at the top.
+                    </p>
+                    <ul class="space-y-4 text-slate-300">
+                        <li class="flex gap-3 items-start">
+                            <span class="text-cyan-400 text-xl">✓</span>
+                            <span>Real-time global rankings</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-cyan-400 text-xl">✓</span>
+                            <span>Track your personal best scores</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-cyan-400 text-xl">✓</span>
+                            <span>Customize your profile display name</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-cyan-400 text-xl">✓</span>
+                            <span>Achievements and badges</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Right Visual -->
+                <div class="card-gradient p-8 rounded-xl border border-cyan-500/30 mt-8 lg:mt-0">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between bg-slate-800/50 p-4 rounded-lg">
+                            <span class="text-xl font-bold text-cyan-300">#1</span>
+                            <span class="text-white">SortMaster92</span>
+                            <span class="text-yellow-300 font-bold">98,542 pts</span>
+                        </div>
+                        <div class="flex items-center justify-between bg-slate-800/50 p-4 rounded-lg">
+                            <span class="text-xl font-bold text-cyan-300">#2</span>
+                            <span class="text-white">WordWizard</span>
+                            <span class="text-gray-300 font-bold">96,821 pts</span>
+                        </div>
+                        <div class="flex items-center justify-between bg-slate-800/50 p-4 rounded-lg">
+                            <span class="text-xl font-bold text-cyan-300">#3</span>
+                            <span class="text-white">SpeedSorter</span>
+                            <span class="text-orange-600 font-bold">94,305 pts</span>
+                        </div>
+                        <div class="flex items-center justify-between bg-slate-800/50 p-4 rounded-lg border-l-4 border-purple-500">
+                            <span class="text-xl font-bold text-purple-400">#47</span>
+                            <span class="text-white">You</span>
+                            <span class="text-purple-300 font-bold">45,621 pts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+        <div class="max-w-2xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text">Get in Touch</span>
+                </h2>
+                <p class="text-slate-400 text-lg">Have questions or feedback? We'd love to hear from you!</p>
+            </div>
+            
+            <form id="contact-form" class="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 border border-purple-500/30 rounded-xl p-8 space-y-6">
+                <!-- Name Field -->
+                <div>
+                    <label for="name" class="block text-cyan-300 font-semibold mb-2">Your Name</label>
+                    <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-slate-800 border border-purple-500/50 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition">
+                </div>
+                
+                <!-- Email Field -->
+                <div>
+                    <label for="email" class="block text-cyan-300 font-semibold mb-2">Your Email</label>
+                    <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-slate-800 border border-purple-500/50 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition">
+                </div>
+                
+                <!-- Subject Field -->
+                <div>
+                    <label for="subject" class="block text-cyan-300 font-semibold mb-2">Subject</label>
+                    <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 bg-slate-800 border border-purple-500/50 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition">
+                </div>
+                
+                <!-- Message Field -->
+                <div>
+                    <label for="message" class="block text-cyan-300 font-semibold mb-2">Message</label>
+                    <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 bg-slate-800 border border-purple-500/50 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition resize-none"></textarea>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="pt-4">
+                    <button type="submit" class="w-full button-glow bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-500 hover:to-purple-700 px-8 py-4 rounded-lg font-bold text-lg">
+                        📧 Send on Gmail
+                    </button>
+                </div>
+            </form>
+            
+            <p class="text-center text-slate-400 text-sm mt-6">Contact: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jgerongco14@gmail.com" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-cyan-300 transition font-semibold email-link">jgerongco14@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="download" class="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-purple-900/50 to-indigo-900/50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-purple-500/10 to-transparent"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">
+                Ready to Dominate?
+            </h2>
+            <p class="text-xl text-slate-300 mb-4">
+                Join thousands of players competing in the ultimate word-sorting challenge.
+            </p>
+            <p class="text-lg text-purple-300 mb-12">
+                Download now and start your journey to the top of the leaderboard!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <div class="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-purple-800 px-10 py-5 rounded-lg font-bold text-lg flex items-center justify-center opacity-75 border border-purple-400">
+                    📱 Google Play - Coming Soon
+                </div>
+                <div class="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-800 px-10 py-5 rounded-lg font-bold text-lg flex items-center justify-center opacity-75 border border-blue-400">
+                    🍎 App Store - Coming Soon
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-purple-500/20 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-2xl font-bold font-mono mb-4">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">RAPID SORT</span>
+                    </h3>
+                    <p class="text-slate-400">Fast-paced word sorting at its finest. Think fast. Sort faster.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold text-cyan-300 mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="#features" class="hover:text-cyan-400 transition">Features</a></li>
+                        <li><a href="#modes" class="hover:text-cyan-400 transition">Game Modes</a></li>
+                        <li><a href="contact.html" class="hover:text-cyan-400 transition">Contact</a></li>
+                        <li><a href="#download" class="hover:text-cyan-400 transition">Download</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold text-cyan-300 mb-4">Legal</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="privacy.html" class="hover:text-cyan-400 transition">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="hover:text-cyan-400 transition">Terms of Service</a></li>
+                        <li><a href="deletion.html" class="hover:text-cyan-400 transition">Account Deletion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-slate-500 text-sm mb-4 sm:mb-0">© 2026 P.A.N.T. Rapid Sort. All rights reserved.</p>
+                    <p class="text-slate-500 text-sm">
+                        Support: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jgerongco14@gmail.com" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-cyan-300 transition email-link">jgerongco14@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            const bodyLines = [
+                name ? `Name: ${name}` : '',
+                email ? `Email: ${email}` : '',
+                '',
+                message
+            ].filter(Boolean);
+
+            const gmailUrl = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${encodeURIComponent('jgerongco14@gmail.com')}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+
+            window.open(gmailUrl, '_blank', 'noopener');
+        });
+    </script>
+</body>
+</html>
